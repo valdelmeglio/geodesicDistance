@@ -60,9 +60,9 @@ in the getDistance function contained in the index.html file are configured in t
 
 ## Content
 
-### Methods
-
 The project consists in a Python web service which, responding to an http request, gives back the distance between the two given points in km.
+
+### Methods
 ```Python
 def geodesicDistance(point1, point2Lat, point2Lng):
 ```
