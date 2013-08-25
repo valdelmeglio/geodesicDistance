@@ -28,7 +28,9 @@ def geodesicdistance(point1, point2Lat, point2Lng):
 
 def getDistance(lat,lng):
     # This function returns the distance in km between   
-    # the user current location and the given address 
+    # the user current location and the given address. 
+    # In future development it could be updated adding a third parameter
+    # which could indicate the type of distance to calculate (eg: distance via road) 
     distance = geodesicdistance(givenAddress, lat, lng)
     return distance
 
