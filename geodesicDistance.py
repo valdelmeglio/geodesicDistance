@@ -59,11 +59,11 @@ def geodesicDistance():
         # Split the query string to extrapolate the latitude and the longitude
         lat = float(query.split(',')[0]) 
         lng = float(query.split(',')[1])
-        position = getDistance(lat,lng)
-        if position:
-            response = createResponse(200,'Query made', position )
+        distance = getDistance(lat,lng)
+        if distance:
+            response = createResponse(200,'Query made', distance )
         else:
-            response = createResponse(200,'Invalid query', position ) 
+            response = createResponse(200,'Invalid query', distance ) 
 
     else:
         response = createResponse(204,'No query made',0)                               
