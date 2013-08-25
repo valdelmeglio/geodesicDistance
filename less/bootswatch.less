@@ -1,0 +1,45 @@
+// Bootswatch.less
+// Swatch: Bootstrap Local Business
+// Version: 2.3.1
+// -----------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+h1 { font-size: 36px; line-height: 40px; margin-top: 20px; text-align: center;text-transform: uppercase;}
+h2 { font-size: 24px; line-height: 40px;letter-spacing: 2px; color: @linkColor; font-weight: 100; }
+h3 { font-size: 20px; line-height: 40px; }
+h4 { font-size: 18px; line-height: 20px; }
+h5 { font-size: 15px; line-height: 20px; margin-top: 7px;}
+h6 { font-size: 12px; line-height: 20px; }
+h2{
+	color: darken(@textColor, 15%);
+}
+hr{
+	border-bottom: 1px solid @grayLight;
+}
+h1 span, h3 span {
+	font-weight: normal;
+}
+// Blockquotes
+blockquote {
+	padding: 0 0 0 15px;
+	border-left: 0px solid @grayLighter;
+	p {
+		margin-bottom: 0;
+		font-size: 13px;
+		text-align: left;
+	}
+	small {
+		display: block;
+		line-height: @baseLineHeight;
+		color: @grayLight;
+		&:before {
+			content: '\2014 \00A0';
+		}
+		float: right;
+		text-align: left;
+		margin-right: 5px;
+	}
+
+}
