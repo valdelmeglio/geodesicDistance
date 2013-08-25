@@ -121,7 +121,7 @@ Before the deployment follow these steps to make it work:
 * Create a `templates` folder and move inside it the `index.html` file
 * Create a `static` folder and move inside it the `css`, `js`, `less` folders 
 * Edit the geodesicDistance.py file and uncomment `def renderIndex():` to make Heroku render the index.html page in the templates folder you've created.
-* Change `app.run(debug=debug, host=host, port=port)` to `app.run(debug=debug)` so the app can bind on an Heroku random port
+* Change `app.run(debug=debug, host=host, port=port)` to `app.run(debug=debug)` so the app can bind to an Heroku random port
 * Edit the `index.html` file: at line 63 change the assignment to the `url` variable to `'/geodesicDistance'`.  
   At the first lines of the file edit the `<link>` and `<script>` lines to make this page point to the correct path. 
   Eg. : `<link rel="stylesheet" href="css/themes/default/bootstrap.css" type="text/css">` will become 
