@@ -62,7 +62,7 @@ in the getDistance function contained in the index.html file are configured in t
 
 The project consists in a Python web service which, responding to an http request, gives back the distance between the two given points in km.
 
-### Methods
+Methods:
 ```Python
 def geodesicDistance(point1, point2Lat, point2Lng):
 ```
@@ -101,7 +101,7 @@ with a polyline.
 
 ![My image](css/images/Polyline.png)
 
-#### Local deployment
+## Local deployment
 Open a terminal window and move to the project folder, then type 
 ``` Bash
 python geodesicDistance.py
@@ -116,7 +116,7 @@ where `127.0.0.1:8000` are the associated url and port where the web server is r
 
 
 
-#### Remote deployment
+## Remote deployment
 Follow the Heroku deployment guide to remotely deploy this project
 https://devcenter.heroku.com/articles/python
 
