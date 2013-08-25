@@ -59,6 +59,9 @@ in the geodesicDistance.py file and the `url` variable
 in the getDistance function contained in the index.html file are configured in the same way.
 
 ## Content
+
+### Methods
+
 The project consists in a Python web service which, responding to an http request, gives back the distance between the two given points in km.
 ```Python
 def geodesicDistance(point1, point2Lat, point2Lng):
