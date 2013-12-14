@@ -130,7 +130,7 @@ Before the deployment follow these steps to make it work:
   Eg. : `<link rel="stylesheet" href="css/themes/default/bootstrap.css" type="text/css">` will become 
   `<link rel="stylesheet" href="/static/css/themes/default/bootstrap.css" type="text/css">`
 
-This app is actually deployed here: [http://geodesicdistance.herokuapp.com/][10]. 
+This app is deployed here: [http://geodesicdistance.herokuapp.com/][10]. 
 It may takes a short delay for the first request because this Heroku app has only one web dyno and if it doesn't receive any traffic in 1 hour, it goes to sleep.
 
 [1]: http://en.wikipedia.org/wiki/As_the_crow_flies
